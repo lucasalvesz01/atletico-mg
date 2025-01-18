@@ -2,10 +2,6 @@
 
 Bem-vindo ao projeto **Galo Fan Page**! Este site foi desenvolvido como uma homenagem ao meu time do coração Clube Atlético Mineiro, com layouts adaptativos para diferentes dispositivos, incluindo celular, tablet e desktop.
 
-## Link do Site
-
-Você pode acessar o site [aqui](https://lucasalvesz01.github.io/atletico-mg).
-
 ## Layouts
 
 O site foi projetado para se adaptar aos seguintes tamanhos de tela:
