@@ -1,0 +1,19 @@
+.rodape{
+    padding: 1em;
+    margin-top: 1em;
+}
+
+.rodape__titulo{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--fonte-titulo);
+}
+
+.rodape__texto{
+    font-size: 14px;
+    padding: 1em 0;
+}
+
+.rodape__email{
+    color: var(--preto-principal);
+}

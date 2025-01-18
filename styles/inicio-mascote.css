@@ -1,0 +1,136 @@
+.inicio__banner{
+    background-color: var(--branco-principal);
+}
+
+.inicio__img{
+    width: 92%;
+    padding: 0 1em;
+}
+
+.inicio__titulo{
+    color: var(--preto-principal);
+    font-family: var(--fonte-titulo);
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.inicio__texto{
+    padding: 0 1em;
+}
+
+.inicio__texto-titulo{
+    font-family: var(--fonte-titulo);
+    font-weight: 500;
+    font-size: 18px;
+    padding: 0.5em 1em;
+}
+
+.inicio__texto-paragrafo{
+    font-family: var(--fonte-texto);
+}
+
+.mascote {
+    padding: 1em;
+    margin-top: 4em;
+}
+
+.mascote__titulo{
+    font-family: var(--fonte-titulo);
+    font-weight: 500;
+    font-size: 18px;
+    padding-bottom: 0.5em;
+    text-align: center;
+}
+
+.mascote img{
+    width: 100%;
+}
+
+@media screen and (min-width:1024px) {
+    .inicio{
+        margin-bottom: 4em;
+    }
+
+    .inicio__titulo{
+        font-size: 34px;
+    }
+
+    .inicio__banner{
+        text-align: center;
+    }
+
+    .inicio__img{
+        width: 80%;
+        text-align: center;
+    }
+
+    .inicio__texto{
+        margin: auto;
+        width: 80%;
+    }
+
+    .inicio__texto-titulo{
+        font-size: 20px;
+    }
+
+    .inicio__texto-paragrafo{
+        font-size: 18px;
+    }
+
+    .mascote {
+        width: 80%;
+        margin: auto;
+    }
+
+    .mascote__titulo{
+        font-size: 20px;
+    }
+
+    .mascote__texto{
+        margin-bottom: 3em;
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width:1728px){
+    .inicio-mascote{
+        display: flex;
+        margin-right: 5em;
+    }
+
+    .inicio__titulo{
+        font-size: 36px;
+    }
+    
+    .inicio__texto-titulo{
+        font-size: 22px;
+    }
+
+    .mascote__titulo{
+        font-size: 22px;
+    }
+
+    .mascote__texto{
+        font-size: 20px;
+    }
+
+    .inicio__img{
+        width: 745px;
+        height: 476px;
+    }
+
+    .mascote img{
+        width: 745px;
+        height: 476px;
+    }
+
+    .inicio__texto-paragrafo{
+        width: 95%;
+        margin: 0 3%;
+        font-size: 20px;
+    }
+}

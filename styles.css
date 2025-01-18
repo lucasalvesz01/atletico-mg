@@ -1,0 +1,21 @@
+@import url(styles/header.css);
+@import url(styles/elenco-socio.css);
+@import url(styles/inicio-mascote.css);
+@import url(styles/titulos-escudo.css);
+@import url(styles/estadio.css);
+@import url(styles/rodape.css);
+
+:root {
+    --preto-principal: #000000;
+    --branco-principal: #ffffff;
+    --amarelo-alternativo: #facf00;
+    --vermelho-alternativo: #c3141b;
+
+    --fonte-titulo: "Oswald", serif;
+    --fonte-texto: "Open Sans", sans-serif;
+}
+
+body {
+    background-color: var(--branco-principal);
+    font-family: var(--fonte-texto);
+}

@@ -1,0 +1,112 @@
+.estadio{
+    padding: 1em;
+    margin-top: 4em;
+}
+
+.estadio__titulo{
+    font-family: var(--fonte-titulo);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.estadio__img{
+    width: 100%;
+    padding: 0.75em 0;
+}
+
+.estadio__card{
+    margin-top: 3em;
+    background-color: var(--preto-principal);
+    border-radius: 8px;
+    padding: 1em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25  );
+}
+
+.estadio__card-descricao{
+    color: var(--branco-principal);
+    display: flex;
+    justify-content: space-around;
+}
+
+.estadio__card-descricao-titulo{
+    font-size: 20px;
+    font-family: var(--fonte-titulo);
+    font-weight: 700;
+    color: var(--amarelo-alternativo);
+}
+
+.estadio__card-descricao-texto{
+    padding: 1em 2em 1em 0;
+}
+
+.estadio__card-img{
+    width: 45%;
+}
+
+.estadio__card-botoes{
+    display: flex;
+}
+
+.estadio__card-botoes-link{
+    color: var(--preto-principal);
+    background-color: var(--amarelo-alternativo);
+    padding: 1em;
+    text-decoration: none;
+    border-radius: 14px;
+    font-weight: 600;
+}
+
+@media screen and (min-width: 1024px) {
+    .estadio{
+        margin-top: 5em;
+    }
+
+    .estadio__titulo{
+        font-size: 20px;
+    }
+
+    .estadio__texto{
+        font-size: 18px;
+    }
+
+    .estadio__descricao{
+        width: 80%;
+        margin: auto;
+    }
+
+    .estadio__card{
+        width: 50%;
+        margin: 2em auto;
+        padding: 2.5em;
+    }
+
+    .estadio__card-descricao-titulo{
+        font-size: 22px;
+    }
+    
+    .estadio__card-descricao-texto{
+        font-size: 20px;
+        padding: 1em 2em 1em 0;
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 1728px){
+    .estadio{
+        display: flex;
+        align-items: center;
+        margin-bottom: 4em;
+    }
+
+    .estadio__descricao{
+        width: 40%;
+    }
+
+    .estadio__titulo{
+        font-size: 22px;
+    }
+
+    .estadio__card{
+        width: 30%;
+    }
+}

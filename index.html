@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/atletico.svg" type="image/x-icon" />
+    <title>Clube Atlético Mineiro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="container">
+            <img class="cabecalho__imagem" src="./img/atletico.svg" alt="Escudo do Clube Atlético Mineiro"> 
+            <h2 class="cabecalho__descricao">Clube Atlético Mineiro</h2>
+        </div>
+        
+        <div class="container">
+            <div class="icones">
+                <ul class="icones__lista">
+                    <li class="icones__lista-item">
+                        <a class="icones__lista-link" href="https://www.instagram.com/atletico"><img class="icones__lista-img" src="img/instagram_4494468.png" alt="Ícone do instagram"></a>
+                    </li>
+                    <li class="icones__lista-item">
+                        <a class="icones__lista-link" href="https://x.com/atletico"><img class="icones__lista-img" src="img/twitter_4494465.png" alt="Ícone do Twitter"></a>
+                    </li>
+                    <li class="icones__lista-item">
+                        <a class="icones__lista-link" href="https://www.tiktok.com/@atletico"><img class="icones__lista-img-tt" src="img/tik-tok_4138198.png" alt="Ícone do TikTok"></a>
+                    </li>
+                    <li class="icones__lista-item">
+                        <a class="icones__lista-link" href="https://www.youtube.com/user/tvgaloweb"><img class="icones__lista-img" src="img/youtube_4494467.png" alt="Ícone do YouTube"></a>
+                    </li>
+                    <li class="icones__lista-item">
+                        <a class="icones__lista-link" href="https://www.facebook.com/atletico"><img class="icones__lista-img" src="img/facebook_4494464.png" alt="Ícone do Facebook"></a>
+                    </li>
+                    <li class="icones__lista-item">
+                        <a class="icones__lista-link" href="https://www.linkedin.com/company/atleticomineiro/posts/?feedView=all"><img class="icones__lista-img" src="img/linkedin_4494471.png" alt="Ícone do Linkedin"></a>
+                    </li>
+                </ul>
+            </div>
+            <input class="container__botao" type="checkbox" id="menu">
+            <label for="menu">
+                <span class="cabecalho__menu-hamburguer cabecalho__imagem"></span>
+            </label>
+            <ul class="lista">
+                <li class="lista__menu">
+                    <h3 class="lista__menu-titulo" href="#">Redes Sociais</h3>
+                </li>
+                <li class="lista__menu">
+                    <a class="lista__menu-texto" href="https://www.instagram.com/atletico"><img class="lista__icon" src="img/instagram_4494468.png" alt="Ícone do instagram">Instagram</a>
+                </li>
+                <li class="lista__menu">
+                    <a class="lista__menu-texto" href="https://x.com/atletico"><img class="lista__icon" src="img/twitter_4494465.png" alt="Ícone do Twitter">Twitter</a>
+                </li>
+                <li class="lista__menu">
+                    <a class="lista__menu-texto" href="https://www.tiktok.com/@atletico"><img class="lista__icon" src="img/tik-tok_4138198.png" alt="Ícone do tiktok">TikTok</a>
+                </li>
+                <li class="lista__menu">
+                    <a class="lista__menu-texto" href="https://www.youtube.com/user/tvgaloweb"><img class="lista__icon" src="img/youtube_4494467.png" alt="Ícone do YouTube">YouTube</a>
+                </li>
+                <li class="lista__menu">
+                    <a class="lista__menu-texto" href="https://www.facebook.com/atletico"><img class="lista__icon" src="img/facebook_4494464.png" alt="Ícone do Facebook">Facebook</a>
+                </li>
+                <li class="lista__menu">
+                    <a class="lista__menu-texto" href="https://www.linkedin.com/company/atleticomineiro/posts/?feedView=all"><img class="lista__icon" src="img/linkedin_4494471.png" alt="Ícone do Linkedin">Linkedin</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <h1 class="inicio__titulo">Aqui é Galo! </h1>
+        <div class="inicio-mascote">
+            <section class="inicio">
+                <div class="inicio__banner">
+                    <h2 class="inicio__texto-titulo">Clube Atlético Mineiro</h2>
+                    <img class="inicio__img" src="img/massadogalo.jpg" alt="Foto torcida do Galo na arquibancada">
+                </div>
+                <div class="inicio__texto">
+                    <p class="inicio__texto-paragrafo">O maior e mais tradicional clube de Minas Gerais foi fundado em 25 de março de 1908 por um grupo de estudantes em Belo Horizonte. Nosso propósito é lutar, honrar e orgulhar a Massa Atleticana dentro e fora de campo.</p>
+                </div>
+            </section>
+
+            <section class="mascote">
+                <h2 class="mascote__titulo">Galo</h2>
+                <img src="img/Galo.jpg" alt="Foto do Mascote Galo">
+                <p class="mascote__texto">O mascote do clube é o Galo desenvolvido pelo chargista Fernando Pierucetti, o Mangabeira, no final dos anos 1930 com a seguinte justificativa: "O Atlético sempre foi um time de raça. Mais parece um galo de briga, que nunca se entrega"</p>
+            </section>
+        </div>
+
+        <div class="elenco-socio">
+            <section class="elenco">
+                <h2 class="elenco__titulo">Elenco Atual</h2>
+
+                <!-- Slider main container -->
+                <div class="swiper">
+
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="img/Eversn.webp" alt="Foto Goleiro Everson">Everson</div>
+                    <div class="swiper-slide"><img src="img/Gabriel-Delfim.webp" alt="Foto Goleiro Gabriel Delfim">Gabriel Delfim</div>
+                    <div class="swiper-slide"><img src="img/Gabriel-Atila.webp" alt="Foto Goleiro Gabriel Atila">Gabriel Atila</div>
+                    <div class="swiper-slide"><img src="img/Lyanco_site.webp" alt="Foto Zagueiro Lyanco">Lyanco</div>
+                    <div class="swiper-slide"><img src="img/Bruno-Fuchs.webp" alt="Foto Zagueiro Bruno Fuchs">Bruno Fuchs</div>
+                    <div class="swiper-slide"><img src="img/Alonso.webp" alt="Foto Zagueiro Alonso">Junior Alonso</div>
+                    <div class="swiper-slide"><img src="img/Igor-Rabello.webp" alt="Foto Zagueiro Igor Rabello">Igor Rabello</div>
+                    <div class="swiper-slide"><img src="img/Romulo.webp" alt="Foto Zagueiro Rômulo">Rômulo</div>
+                    <div class="swiper-slide"><img src="img/Arana.webp" alt="Foto Lateral Arana">Arana</div>
+                    <div class="swiper-slide"><img src="img/Saravia.webp" alt="Foto Lateral Saravia">Saravia</div>
+                    <div class="swiper-slide"><img src="img/Rubens.webp" alt="Foto Lateral Rubens">Rubens</div>
+                    <div class="swiper-slide"><img src="img/Gabriel-Menino.jpeg" alt="Foto Meio Campista Gabriel Menino">Gabriel Menino</div>
+                    <div class="swiper-slide"><img src="img/Patrick-Silva.jpeg" alt="Foto Meio Campista Patrick Silva">Patrick Silva</div>
+                    <div class="swiper-slide"><img src="img/Otavio-2.webp" alt="Foto Meio Campista Otávio">Otávio</div>
+                    <div class="swiper-slide"><img src="img/Scarpa.webp" alt="Foto Meio Campista Gustavo Scarpa">Scarpa</div>
+                    <div class="swiper-slide"><img src="img/Igor-Gomes-2.webp" alt="Foto Meio Campista Igor Gomes">Igor Gomes</div>
+                    <div class="swiper-slide"><img src="img/Fausto-Vera-site.webp" alt="Foto Meio Campista Fausto Vera">Fausto Vera</div>
+                    <div class="swiper-slide"><img src="img/Bernard-1.webp" alt="Foto Meio Campista Bernard">Bernard</div>
+                    <div class="swiper-slide"><img src="img/Franco-2.webp" alt="Foto Meio Campista Alan Franco">Alan Franco</div>
+                    <div class="swiper-slide"><img src="img/Paulo-Vitor-2.webp" alt="Foto Meio Campista Paulo Vitor-">Paulo Vitor</div>
+                    <div class="swiper-slide"><img src="img/Robert_site.webp" alt="Foto Meio Campista Robert">Robert</div>
+                    <div class="swiper-slide"><img src="img/Scarpa.webp" alt="Foto Meio Campista Gustavo Scarpa">Scarpa</div>
+                    <div class="swiper-slide"><img src="img/Hulk-2.webp" alt="Foto Atacante Hulk">Hulk</div>
+                    <div class="swiper-slide"><img src="img/Deyverson_site.webp" alt="Foto Atacante Deyverson">Deyverson</div>
+                    <div class="swiper-slide"><img src="img/Palacios.webp" alt="Foto Atacante Palacios">Palacios</div>
+                    <div class="swiper-slide"><img src="img/Cadu-3.webp" alt="Foto Atacante Cadu">Cadu</div>
+                    <div class="swiper-slide"><img src="img/Alisson-2.webp" alt="Foto Atacante Alisson">Alisson</div>
+
+                    </div>
+                
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                
+                </div>
+            </section>
+
+            <section class="socio">
+                <!-- 1º linha -->
+                <div class="socio__descricao">
+                <!-- 1º coluna -->
+                    <div class="descricao">
+                        <h3 class="descricao__titulo">Seja <b class="descricao__titulo-negrito">Galo na Veia</b> e faça o Atlético ainda mais forte! Confira nossos planos e faça parte dessa paixão!</h3>
+                    </div>
+                    <!-- 2º coluna -->
+                    <img class="img__torcidagalo2" src="img/torcidagalo2.jpg" alt="Imagem torcida do Galo">
+                </div>
+                <!-- 2º linha -->
+                <div class="socio__botoes">
+                    <a class="botao__seja-socio" href="https://galonaveia.atletico.com.br/home">Quero ser Sócio</a>
+                    <img class="logo__galonaveia" src="img/Galo na Veia Branco.png" alt="Logo Galo na Veia">
+                </div>
+            </section>
+        </div>
+
+        <section class="estadio">
+            <div class="estadio__descricao">
+                <h2 class="estadio__titulo">Arena MRV - A casa do Galo</h2>
+                <img class="estadio__img" src="img/Foto Arena MRV.jpg" alt="Imagem da Arena MRV">
+                <p class="estadio__texto">A Arena MRV é o estádio de futebol do Clube Atlético Mineiro, inaugurado em 2023. Localizada em Belo Horizonte, Minas Gerais, a arena representa um marco na história do clube, sendo o palco onde o Galo escreve novos capítulos de suas glórias e conquistas, tem capacidade para 45 mil torcedores e é a mais moderna, tecnológica, inclusiva e sustentável da América Latina.</p>
+            </div>
+
+            <div class="estadio__card">
+                <!-- 1º linha -->
+                <div class="estadio__card-descricao">
+                    <div class="descricao-card">
+                        <h2 class="estadio__card-descricao-titulo">Tour Arena MRV</h2>
+                        <h3 class="estadio__card-descricao-texto">Conheça os bastidores da casa do Galo.</h3>
+                    </div>
+                    <!-- 2º coluna -->
+                    <img class="estadio__card-img" src="./img/marca_arenaMRV_branca.png" alt="Logo Arena MRV">
+                </div>
+                <!-- 2º coluna -->
+                <div class="estadio__card-botoes">
+                    <a class="estadio__card-botoes-link" href="https://bileto.sympla.com.br/event/84415/d/284113">Saiba Mais</a>
+                </div>
+            </div>
+        </section>
+
+        <div class="titulos-escudo">
+            <section class="escudo">
+                <h2 class="escudo__titulo">Evolução do Escudo</h2>
+                <img class="escudo__img" src="./img/EscudoGalo.png" alt="Evolução do Escudo do Galo">
+            </section>
+
+            <section class="titulos">
+                <div class="titulos__descricao">
+                    <h2 class="titulos__titulo">Principais Títulos</h2>
+                    <ul class="titulos__lista">
+                        <li class="titulos__item">Maior Campeão Mineiro</li>
+                        <li class="titulos__item">Campeão Brasileiro - 1937</li>                
+                        <li class="titulos__item">Campeão do Gelo - 1950</li>
+                        <li class="titulos__item">Campeão Brasileiro - 1971</li>
+                        <li class="titulos__item">Campeão dos Campeões - 1978</li>
+                        <li class="titulos__item">Copa Conmebol - 1992</li>
+                        <li class="titulos__item">Copa Conmebol - 1997</li>
+                        <li class="titulos__item">Copa Libertadores - 2013</li>
+                        <li class="titulos__item">Recopa Sul-Americana - 2014</li>
+                        <li class="titulos__item">Copa do Brasil - 2014</li>
+                        <li class="titulos__item">Campeonato Brasileiro - 2021</li>
+                        <li class="titulos__item">Copa do Brasil - 2021</li>
+                        <li class="titulos__item">Supercopa do Brasil - 2022</li>
+                    </ul>
+                </div>
+                <img class="titulos__img" src="img/libertadores-2013.jpg" alt="Galo Campeão da Libertadores em 2013">
+            </section>
+        </div>
+    </main>
+
+    <hr/>
+
+    <footer class="rodape">
+        <h2 class="rodape__titulo">Desenvolvido por Lucas Santos</h2>
+        <p class="rodape__texto">As imagens utilizadas neste site são de propriedade do Clube Atlético Mineiro. Caso haja qualquer questão de direitos autorais, entre em contato para resolvermos imediatamente.</p>
+        <p class="rodape__texto">Ícones de redes socias desenvolvidos por <a href="https://br.freepik.com/autor/riajulislammunshi/icones">riajulislam</a> e <a href="https://br.freepik.com/autor/user5954771/icones">Grow studio</a></p>
+        <a class="rodape__email" href="lucas.alvessantos610@gmail.com">lucas.alvessantos610@gmail.com</a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+        spaceBetween: 10,
+        slidesPerView: 3,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+            dynamicBullets: true,
+            }, 
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        });
+        
+    </script>
+</body>
+</html>

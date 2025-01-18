@@ -1,0 +1,154 @@
+.elenco{
+    margin-top: 4em;
+}
+
+.elenco__titulo {
+    color: var(--preto-principal);
+    text-transform: uppercase;
+    font-family: var(--fonte-titulo);
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    padding: 0.75em 0 0.5em 0;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-family: var(--fonte-texto);
+    font-weight: 500;   
+    padding: 0.5em 0;
+}
+
+.swiper-slide img{
+    width: 100%;
+}
+
+.swiper-button-prev, 
+.swiper-button-next {
+    display: none;
+}
+
+.swiper-pagination {
+    display: block;
+    position: initial;
+    margin: 0.5em 50%;
+}
+
+.swiper-pagination-bullet {
+    background-color: var(--preto-principal);
+    width: 10px;
+    height: 10px;
+}
+
+.socio{
+    background-color: var(--preto-principal);
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25  );
+    margin: 0.5em;
+    padding: 1em;
+    margin-top: 4em;
+}
+
+.socio__descricao{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.descricao__titulo{
+    color: var(--branco-principal);
+    width: 80%;
+    font-family: var(--fonte-texto);
+    font-weight: 400;
+    font-size: 14;
+}
+
+.descricao__titulo-negrito{
+    font-weight: 700;
+    color: var(--vermelho-alternativo);
+}
+
+.socio__botoes{
+    display: flex;
+    margin-top: 1.5em;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img__torcidagalo2{
+    width: 45%;
+    border-radius: 8px;
+}
+
+.logo__galonaveia{
+    width: 40%;
+}
+
+.botao__seja-socio {
+    font-family: var(--fonte-texto);
+    font-weight: 600;
+    text-align: center;
+    background-color: var(--amarelo-alternativo);
+    text-decoration: none;
+    color: var(--preto-principal);
+    border-radius: 16px;
+    padding: 1em;
+}
+
+@media screen and (min-width:1024px) {
+    .elenco{
+        width: 70%;
+        margin: auto;
+        padding-bottom: 4em;
+    }
+
+    .elenco__titulo {
+        font-size: 20px;
+    }
+
+    .swiper-slide{
+        font-size: 20px;
+    }
+
+    .socio{
+        width: 50%;
+        margin: auto;
+        padding: 2.5em;
+    }
+
+    .descricao__titulo{
+        font-size: 20px;
+    }
+
+    .botao__seja-socio{
+        font-size: 18px;
+    }
+}
+@media screen and (min-width:1728px) {
+    .elenco-socio{
+        display: flex;
+        margin-top: 2em;
+        align-items: center;
+    }
+
+    .elenco{
+        width: 40%;
+    }
+
+    .elenco__titulo{
+        font-size: 22px;
+    }
+
+    .swiper-button-prev, 
+    .swiper-button-next {
+        display: block;
+        color: var(--vermelho-alternativo);
+    }
+
+    .socio{
+        width: 30%;
+    }
+}
+
+
+    
